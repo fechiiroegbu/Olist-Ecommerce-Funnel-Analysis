@@ -12,7 +12,8 @@ This dashboard analyses the order fulfilment funnel of Olist, covering orders pl
 
 Key findings
 
-The funnel is healthy. Of roughly 99K orders placed, 99.8% were approved, 98.4% were shipped and 98.8% were delivered. About 96K orders (around 97% of those purchased) reached the customer.
+The funnel is healthy. Of roughly 99K orders placed, 99.8% were approved, 98.4% were shipped and 98.8% were delivered. 
+About 96K orders (around 97% of those purchased) reached the customer.
 Approval is not the bottleneck. Almost every order clears approval, so the small losses occur at the shipping and delivery stages.
 Delivery performance varies by region. Most states deliver between 97% and 99.6% of orders. Mato Grosso do Sul (MS), Paraná (PR) and Minas Gerais (MG) are among the strongest.
 Roraima (RR) is the clear outlier. Its delivery rate is 91.1%, about 7 percentage points below the 98.8% overall rate and the lowest of any state. Ceará (CE) is next lowest at 97.0%.
@@ -49,19 +50,6 @@ Slicers for customer state and date range
 
 Note: the funnel and state charts use truncated axes to make small differences visible, so the gaps look larger than they are in absolute terms.
 
-Repository Structure
-olist-ecommerce-funnel-analysis/
-├── README.md
-├── images/
-│   └── dashboard-preview.png
-└── olist-funnel-analysis.pbix
 
-The raw data is not included. Download it from the Kaggle link above.
-
-How to Open the Dashboard
-Download olist-funnel-analysis.pbix from this repository.
-Open it in Power BI Desktop (free, Windows only).
-If prompted, point the data sources to your own download of the Kaggle files.
-Author
 
 Fechi Iroegbu LinkedIn | GitHub
